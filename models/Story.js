@@ -19,9 +19,9 @@ const StorySchema = new mongoose.Schema({
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'User'
 	},
-	createdAd: {
+	createdAt: {
 		type: Date,
-		default: Date.now
+		default: Date.now()
 	}
 })
 
